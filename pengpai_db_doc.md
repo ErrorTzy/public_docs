@@ -136,7 +136,7 @@ python3操作sqlite3数据库： https://www.runoob.com/sqlite/sqlite-python.htm
 - `$PATH_TO_CSV`:
 	- 如果需要导出数据库的结果到csv文件，那么你就需要假定一个csv文件的路径（此时这个文件还不能存在）。例如：`F:/pengpai/output.csv`，此时pengpai文件夹下没有文件`output.csv`。在本文档中为`/media/scott/Seagate Basic/pengpai/output.csv`。
 - `PATH_TO_PY`:
-	- 如果需要运行`pengpai_data_export.py`，那么你也需要得到这个文件的路径，例如`F:/pengpai/pengpai_data_export.py`。在本文档中为`python3 "/media/scott/Seagate Basic/pengpai/pengpai_data_export.py`
+	- 如果需要运行`pengpai_data_export.py`，那么你也需要得到这个文件的路径，例如`F:/pengpai/pengpai_data_export.py`。在本文档中为`/media/scott/Seagate Basic/pengpai/pengpai_data_export.py`
 
 
 
