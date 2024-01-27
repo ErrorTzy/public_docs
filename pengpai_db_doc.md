@@ -377,10 +377,8 @@ sqlite>
 
 这里引入的取交集的新句法是：
 ```sql
-SELECT 
-  ... 
-FROM 
-  表a 
+...
+表a 
 JOIN 
   表b 
 ON 
