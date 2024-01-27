@@ -132,7 +132,7 @@ python3操作sqlite3数据库： https://www.runoob.com/sqlite/sqlite-python.htm
 - `$PATH_TO_DB`: 
 	- `pengpai.db`所在路径，例如`F:/pengpai/pengpai.db`。在本文档中为`/media/scott/Seagate Basic/pengpai/pengpai.db`。
 - `$PATH_TO_SIMPLE`: 
-	- 解压simple至一个文件夹后，名为`libsimple`的文件路径，例如`F:/simple/libsimple.so`。在本文档中为`/media/scott/Seagate Basic/pengpai/libsimple.so`
+	- 解压simple至一个文件夹后，名为`libsimple`的文件的路径，例如`F:/simple/libsimple.so`。在本文档中为`/media/scott/Seagate Basic/pengpai/libsimple.so`
 - `$PATH_TO_CSV`:
 	- 如果需要导出数据库的结果到csv文件，那么你就需要假定一个csv文件的路径（此时这个文件还不能存在）。例如：`F:/pengpai/output.csv`，此时pengpai文件夹下没有文件`output.csv`。在本文档中为`/media/scott/Seagate Basic/pengpai/output.csv`。
 - `PATH_TO_PY`:
