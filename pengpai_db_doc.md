@@ -1,23 +1,3 @@
----
-title: 一个用户友好型澎湃数据库使用文档
-subtitle: 
-author: 
-abstract: 
-date: 
-institute: 
-numbersections: true
-toc: false
-toc-title: catalog
-reference-section-title: 
-mainfont: FreeSerif
-CJKmainfont: SimSun
-include-before:
-  - "`\\newpage{}`{=latex}"
-linestretch: "1.5"
-fontsize: "10"
----
-
-
 # 前置条件
 
 ## 程序
