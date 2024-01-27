@@ -2,40 +2,67 @@
 
 ## 程序
 
-SQLite3：
+**SQLite3**：
+
 使用（最？）广泛的轻量级数据库
+
 官网： https://www.sqlite.org/index.html
+
 下载： https://www.sqlite.org/download.html
+
 安装说明：见本文档的**前置条件-知识-SQL-中文SQLite SQL教程-SQLite安装**
 
-simple：
+
+
+**simple**：
+
 SQLite FTS5中文分词插件，用于加速检索数据库中的中文
+
 Github： https://github.com/wangfenjin/simple
+
 下载： https://github.com/wangfenjin/simple/releases/tag/v0.3.0
+
 安装说明：选择系统对应的压缩包，并解压至任意一个文件夹
 
-Python3（optional）
+
+
+**Python3**（optional）
+
 一个运行python代码的程序，如果需要使用pengpai_data_export.py辅助数据导出，那么需要安装python3
+
 官网： https://www.python.org/
+
 下载： https://www.python.org/downloads/
+
 安装说明：见本文档的**前置条件-知识-Python3语法-基础教程-python3环境搭建**
 
 ## 知识
 
 尽管本文档将简单地对这些知识进行最基础的介绍，因此**可以在不具备以下知识的情况下对数据库进行操作**；但完全实现对数据库中的数据的掌控需要以下知识：
 
-SQL语法：
+**SQL语法**：
+
 操作数据库所使用的语言
+
 中文SQL教程（比较全面）： https://www.runoob.com/sql/sql-tutorial.html
+
 中文SQLite SQL教程（比较简练）： https://www.runoob.com/sqlite/sqlite-tutorial.html
 
-SQLite FTS5 Extension语法:
+
+**SQLite FTS5 Extension语法**:
+
 对FTS5虚拟表进行进行字符串查询时所使用的查询语法
+
 教程： https://www.sqlitetutorial.net/sqlite-full-text-search/
 
-Python3语法（optional）：
+
+
+**Python3语法**（optional）：
+
 一种编程语言，可以对数据库中的数据进行更复杂的操作
+
 基础教程： https://www.runoob.com/python3/python3-tutorial.html
+
 python3操作sqlite3数据库： https://www.runoob.com/sqlite/sqlite-python.html
 
 ## 硬件
@@ -93,7 +120,9 @@ python3操作sqlite3数据库： https://www.runoob.com/sqlite/sqlite-python.htm
 
 ### 定义
 当本文档中使用以下任意一个名称时，它们都可以被替换它们实际的值。例如：
-$EXAMPLE: 一个任意的文件夹路径，例如`C:\example folder\` 
+
+- $EXAMPLE: 一个任意的文件夹路径，例如`C:\example folder\` 
+
 那么当本文档中提到在命令行输入命令：`cd "$EXAMPLE"`，那么它就可以被代换为`cd "C:\example folder\"`
 
 - `$PATH_TO_DB`: 
