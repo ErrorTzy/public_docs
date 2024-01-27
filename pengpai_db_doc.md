@@ -14,6 +14,8 @@
 
 
 
+
+
 **simple**：
 
 SQLite FTS5中文分词插件，用于加速检索数据库中的中文
@@ -23,6 +25,8 @@ Github： https://github.com/wangfenjin/simple
 下载： https://github.com/wangfenjin/simple/releases/tag/v0.3.0
 
 安装说明：选择系统对应的压缩包，并解压至任意一个文件夹
+
+
 
 
 
@@ -121,7 +125,7 @@ python3操作sqlite3数据库： https://www.runoob.com/sqlite/sqlite-python.htm
 ### 定义
 当本文档中使用以下任意一个名称时，它们都可以被替换它们实际的值。例如：
 
-- $EXAMPLE: 一个任意的文件夹路径，例如`C:\example folder\` 
+- `$EXAMPLE`: 一个任意的文件夹路径，例如`C:\example folder\` 
 
 那么当本文档中提到在命令行输入命令：`cd "$EXAMPLE"`，那么它就可以被代换为`cd "C:\example folder\"`
 
