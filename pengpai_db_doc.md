@@ -431,7 +431,9 @@ sqlite> .output stdout --保存$PATH_TO_CSV文件
 
 
 #### 现成的Python程序
+
 说明：这个python程序用于处理一个特殊的需求，即按照日期批量导出多个匹配特定规则的数据，并且区分is_repetitive的值。这个程序在速度上进行了优化，能够较为快速地进行查询。
+
 依赖：已安装python3
 
 使用任意一个文本编辑器（notepad/nano/vim...）打开`pengpai_data_export.py`。它的前几行内容如下：
